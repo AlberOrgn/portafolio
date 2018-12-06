@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpClientModule } from '@angular/common/http';
+
 //Rutas
 import { AppRutasModule } from './app-rutas.module';
 
@@ -23,7 +25,8 @@ import { ItemComponent } from './pages/item/item.component';
   ],
   imports: [
     BrowserModule,
-    AppRutasModule
+    AppRutasModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
