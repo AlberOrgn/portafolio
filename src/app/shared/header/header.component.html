@@ -12,25 +12,11 @@
     </svg>
   </label>
   <div class="ae-container-fluid rk-topbar">
-    <h1 class="rk-logo"><a href="index.html">Kaynote<sup>Bar/Restaurante</sup></a></h1>
+    <h1 class="rk-logo"><a routerLink="home">Kaynote<sup>Bar/Restaurante</sup></a></h1>
     <nav class="rk-navigation">
       <ul class="rk-menu">
-        <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Kaynote</a>
-        </li>
-        <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Carta</a>
-        </li>
-        <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">De la abuela</a>
-        </li>
-        <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Reserva</a>
-          <nav class="rk-menu__sub">
-            <ul class="rk-container">
-              <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">Sobre nosotros</a></li>
-              <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentacion</a></li>
-              <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Diseño</a></li>
-            </ul>
-          </nav>
-        </li>
-        <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contáctanos</a>
+        <li routerLinkActive="active" class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Carta</a>
+        <li routerLinkActive="active" class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Kaynote</a>
         </li>
       </ul>
       <form class="rk-search">
