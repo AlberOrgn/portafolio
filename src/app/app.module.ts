@@ -13,6 +13,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
+import { BuscarComponent } from './pages/buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ItemComponent } from './pages/item/item.component';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,
