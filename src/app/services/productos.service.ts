@@ -34,14 +34,14 @@ export class ProductosService {
    buscarProducto( termino: string ) {
 
     if ( this.productos.length === 0) {
-      //cargar productos
+      // cargar productos
       this.cargarProuctos().then(() => {
-        //esto se va a ejecutar después de tener los productos
-        //Aplicamos el filtro
+        // esto se va a ejecutar después de tener los productos
+        // Aplicamos el filtro
         this.filtrarProductos( termino );
       });
     } else {
-      //aplicar el filtro
+      // aplicar el filtro
       this.filtrarProductos( termino );
     }
    }
